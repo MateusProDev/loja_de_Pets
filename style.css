@@ -1,0 +1,261 @@
+body {
+    width: 1000px auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: rgb(245, 211, 101);
+    padding: 4px;
+    margin: 0;
+    height: 30px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.151);
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+header li{
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: -12px;
+}
+
+.navg ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navg li{
+    display: flex;
+}
+
+#logo{
+    margin-left: -40px;
+    width: 80px;
+    right: 40px;
+}
+
+#fret{
+    margin-left: 150px;
+    width: 40px;
+    height: 40px;
+}
+
+#carri{
+    width: 40px;
+    height: 40px;
+}
+
+/* conteudo */
+
+main{
+    background-color: aliceblue;
+}
+
+/* seção 1 */
+
+#linha1{
+    margin: 0;
+    border: 3px solid rgb(212, 139, 3);
+}
+
+.banner_princiapal{
+    width: 100%;
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 30px 20px 0 25px;
+}
+
+#linha_mais_vendidos{
+    width: 293px;
+    margin-left: 27px;
+}
+
+.container{
+    width: 100%; /* Defina a largura desejada para o contêiner */
+  overflow-x: auto; /* Habilita a rolagem horizontal quando necessário */
+  white-space: nowrap; /* Impede que as caixas quebrem para a próxima linha */
+  margin: 10px;
+}
+
+.container .box{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box{
+    display: inline-block; /* Exibe as caixas em uma linha */
+    width: 200px; /* Defina a largura apropriada para cada caixa */
+    height: 200px; /* Defina a altura apropriada para cada caixa */
+    margin: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.219);
+    
+}
+
+.box img{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: -40px;
+}
+
+.box h4{
+    width: 100%;
+    font-size: 20px;
+    margin: 15px;
+
+}
+
+.box strong {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    margin-left: 22px;
+}
+
+.box del{
+    font-size: 18px;
+    color: red;
+}
+
+#porcentagem{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    max-width: max-content;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.377);
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.box p{
+    font-size: 28px;
+    margin-top: -2px;
+    margin-left: 20px;
+}
+
+/* seção 2 */
+
+.sect2 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 30px 20px 0 25px;
+}
+
+#linha_colecao{
+    width: 195px;
+    margin-left: 27px;
+}
+
+.container_colecao{
+    width: 100%; /* Defina a largura desejada para o contêiner */
+  overflow-x: auto; /* Habilita a rolagem horizontal quando necessário */
+  white-space: nowrap; /* Impede que as caixas quebrem para a próxima linha */
+  margin: 10px;
+}
+
+.colection{
+    display: inline-block; /* Exibe as caixas em uma linha */
+    width: 200px; /* Defina a largura apropriada para cada caixa */
+    height: 200px; /* Defina a altura apropriada para cada caixa */
+    margin: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.colection img{
+    width: 150px;
+    position: relative;
+    margin-top: 79px;
+    margin-left: 25px;
+}
+
+.colection p{
+    position: relative;
+    font-size: 24px;
+    margin-top: 90px;
+    margin-left: 47px;
+}
+
+#petiscos{
+    margin-left: 60px;
+}
+
+/* seção 3 */
+
+.sect3{
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+}
+
+.sect3 h5{
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+
+.sect3 img{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+/* rodapé */
+
+footer{
+    height: 350px;
+    background-color: rgb(245, 211, 101);
+    margin-top: -20px;
+    padding: 20px;
+}
+
+footer h6{
+    font-size: 18px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+}
+
+footer hr{
+    margin-left: 20px;
+    border: 1px solid;
+    color: white;
+}
+
+footer form{
+    text-align: center;
+}
+
+footer input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    margin: 2px;
+}
+
