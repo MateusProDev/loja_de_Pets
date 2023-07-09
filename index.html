@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>EX 26 / MODELO</title>
 </head>
@@ -24,13 +25,38 @@
     </nav>
     <main>
         <hr id="linha1">
-        <img class="banner_princiapal" src="banner_principal.png" alt="banner">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="banner_principal.png" class="d-block w-100" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                <img src="banner humano pets.png" class="d-block w-100" alt="Imagem 2">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <section class="sect1">
             <h1>MAIS VENDIDOS DA SEMANA</h1>
             <hr id="linha_mais_vendidos">
             <div class="container">
                 <div class="box">
-                    <div id="porcentagem"> 40%</div>
+                    <div id="porcentagem"> 40% Off</div>
                     <img src="pets1.webp" alt="produto1">
                     <h4>Rastreador Pet Track</h4>
                     <strong> 
@@ -39,7 +65,7 @@
                     </strong>
                 </div>
                 <div class="box">
-                    <div id="porcentagem"> 40%</div>
+                    <div id="porcentagem"> 40% Off</div>
                     <img src="pets1.webp" alt="produto1">
                     <h4>Rastreador Pet Track</h4>
                      <strong> 
@@ -48,7 +74,7 @@
                     </strong>  
                 </div>
                 <div class="box">
-                    <div id="porcentagem"> 40%</div>
+                    <div id="porcentagem"> 40% Off</div>
                     <img src="pets1.webp" alt="produto1">
                     <h4>Rastreador Pet Track</h4>
                     <strong> 
@@ -100,5 +126,6 @@
             <input type="button" value="Enviar"><br>
         </form>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
