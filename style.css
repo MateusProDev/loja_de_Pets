@@ -1,17 +1,18 @@
 body {
-    width: 1000px auto;
+    width: auto auto;
     height: auto;
     padding: 0;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 header {
     background-color: rgb(245, 211, 101);
     padding: 4px;
     margin: 0;
-    height: 30px;
+    height: 40px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.151);
 }
 
@@ -29,12 +30,13 @@ header a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 14px;
-    margin-top: -12px;
+    margin-top: 0;
 }
 
 .navg ul{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 15px;
 }
 
 .navg li{
@@ -88,10 +90,10 @@ h1{
 }
 
 .container{
-    width: 100%; /* Defina a largura desejada para o contêiner */
+  width: 100%; /* Defina a largura desejada para o contêiner */
   overflow-x: auto; /* Habilita a rolagem horizontal quando necessário */
   white-space: nowrap; /* Impede que as caixas quebrem para a próxima linha */
-  margin: 10px;
+  padding: 0;
 }
 
 .container .box{
@@ -173,7 +175,6 @@ h1{
     width: 100%; /* Defina a largura desejada para o contêiner */
   overflow-x: auto; /* Habilita a rolagem horizontal quando necessário */
   white-space: nowrap; /* Impede que as caixas quebrem para a próxima linha */
-  margin: 10px;
 }
 
 .colection{
@@ -212,7 +213,7 @@ h1{
 
 .sect3{
     text-align: center;
-    margin: 10px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 .sect3 h5{
@@ -223,13 +224,13 @@ h1{
 .sect3 img{
     width: 50px;
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: 10px;
 }
 
 /* rodapé */
 
 footer{
-    height: 350px;
+    height: auto;
     background-color: rgb(245, 211, 101);
     margin-top: -20px;
     padding: 20px;
