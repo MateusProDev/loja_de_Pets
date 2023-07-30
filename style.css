@@ -98,12 +98,33 @@ h1{
 
 .container .box{
     width: 250px;
-    height: 400px;
+    height: auto;
     background-color: rgb(255, 255, 255);
-    margin: 10px;
+    margin: 10px 0 10px 10px;
+    padding-bottom: 20px;
     border-radius: 10px;
 }
-
+.adicionar-ao-carrinho{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 4px #333333b2;
+}
+.adicionar-ao-carrinho:hover{
+   background-color: aquamarine;
+}
+.notificacao {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    z-index: 9999;
+  }
 .box{
     display: inline-block; /* Exibe as caixas em uma linha */
     width: 200px; /* Defina a largura apropriada para cada caixa */
@@ -259,4 +280,3 @@ footer input{
     border-radius: 100px;
     margin: 2px;
 }
-
